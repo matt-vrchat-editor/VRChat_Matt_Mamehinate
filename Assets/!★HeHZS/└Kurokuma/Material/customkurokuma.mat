@@ -129,11 +129,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionGradTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ad814bf5192b40369be294e285e7c2a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9dd4c4a1e2485f12673f93c748036093, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emissive_Tex:
@@ -363,10 +363,10 @@ Material:
     - _ApplySpecularFA: 1
     - _AsOverlay: 0
     - _AsUnlit: 0
-    - _AudioLink2Emission: 0
+    - _AudioLink2Emission: 1
     - _AudioLink2Emission2nd: 0
     - _AudioLink2Emission2ndGrad: 0
-    - _AudioLink2EmissionGrad: 0
+    - _AudioLink2EmissionGrad: 1
     - _AudioLink2Main2nd: 0
     - _AudioLink2Main3rd: 0
     - _AudioLink2Vertex: 0
@@ -457,11 +457,11 @@ Material:
     - _EmissionBlend: 1
     - _EmissionBlendMode: 1
     - _EmissionFluorescence: 0
-    - _EmissionGradSpeed: 1
+    - _EmissionGradSpeed: 0.2
     - _EmissionMainStrength: 0
     - _EmissionMap_UVMode: 0
     - _EmissionParallaxDepth: 0
-    - _EmissionUseGrad: 0
+    - _EmissionUseGrad: 1
     - _EnvRimBlur: 0.35
     - _EnvRimBorder: 3
     - _Farthest_Distance: 100
@@ -780,13 +780,13 @@ Material:
     - _UVSec: 0
     - _Unlit_Intensity: 1
     - _UseAnisotropy: 0
-    - _UseAudioLink: 0
+    - _UseAudioLink: 1
     - _UseBacklight: 1
     - _UseBump2ndMap: 0
     - _UseBumpMap: 0
     - _UseClippingCanceller: 0
     - _UseDither: 0
-    - _UseEmission: 0
+    - _UseEmission: 1
     - _UseEmission2nd: 0
     - _UseGlitter: 0
     - _UseMain2ndTex: 0
@@ -848,7 +848,7 @@ Material:
     - _Emission2ndMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionBlink: {r: 0, g: 0, b: 3.141593, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.15, g: 1, b: 0.25, a: 1}
     - _EmissionMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _Emissive_Color: {r: 0, g: 0, b: 0, a: 1}
     - _GlitterAtras: {r: 1, g: 1, b: 0, a: 0}

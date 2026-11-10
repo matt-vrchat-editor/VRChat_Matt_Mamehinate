@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: HeartGun_Shot
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
-  - name: "\u53F3\u624B\u304B\u3089\u30CF\u30FC\u30C8\u5C04\u51FA"
+  - name: Gun Right
     icon: {fileID: 0}
     type: 102
     parameter:
@@ -23,7 +24,7 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: "\u5DE6\u624B\u304B\u3089\u30CF\u30FC\u30C8\u5C04\u51FA"
+  - name: Gun Left
     icon: {fileID: 0}
     type: 102
     parameter:
