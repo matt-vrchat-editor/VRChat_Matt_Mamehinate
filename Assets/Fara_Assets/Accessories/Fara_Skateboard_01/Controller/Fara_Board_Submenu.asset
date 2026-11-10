@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Fara_Board_Submenu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 3d1dc664dc583964a829c0dfe966c4c5, type: 2}
+  controls:
+  - name: Toggle
+    icon: {fileID: 2800000, guid: 280bd60eba4dfd24ab659853429f350d, type: 3}
+    type: 102
+    parameter:
+      name: SB_Toggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Left Hand
+    icon: {fileID: 2800000, guid: 878ce235c19a7d4438edca797502ffbb, type: 3}
+    type: 102
+    parameter:
+      name: SB_On_HandL
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Right Hand
+    icon: {fileID: 2800000, guid: 1786d3830c5e09247bdc32f23ed04b55, type: 3}
+    type: 102
+    parameter:
+      name: SB_On_HandR
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: On Feet
+    icon: {fileID: 2800000, guid: 5341f07ff529ec74d8d2f16a4f98a6d8, type: 3}
+    type: 102
+    parameter:
+      name: SB_On_Feet
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Mute Travel Sounds
+    icon: {fileID: 2800000, guid: f94beeec5fb6808439ccf92f7059c7b1, type: 3}
+    type: 102
+    parameter:
+      name: SB_Mute
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

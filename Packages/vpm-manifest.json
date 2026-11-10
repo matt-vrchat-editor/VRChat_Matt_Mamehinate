@@ -1,0 +1,139 @@
+{
+  "dependencies": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29"
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.13"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.9"
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.1.2"
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.18.7"
+    },
+    "dev.limitex.avatar-compressor": {
+      "version": "0.9.0"
+    },
+    "com.poiyomi.toon": {
+      "version": "9.3.64"
+    },
+    "d4rkpl4y3r.d4rkavataroptimizer": {
+      "version": "4.6.0"
+    },
+    "gogoloco": {
+      "version": "1.8.6"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1442.0"
+    },
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "3.0.3"
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.4.1"
+    },
+    "com.vrchat.avatars": {
+      "version": "3.10.6"
+    },
+    "com.llealloo.audiolink": {
+      "version": "3.1.2"
+    },
+    "com.github.kurotu.krt-material-tools": {
+      "version": "1.1.0"
+    }
+  },
+  "locked": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29",
+      "dependencies": {}
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.13",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.1.0"
+      }
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.9",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.10.4 < 3.11.X"
+      }
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.1.2",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2 - 3.10"
+      }
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.18.7",
+      "dependencies": {
+        "nadena.dev.ndmf": ">=1.14.7 <2.0.0-a"
+      }
+    },
+    "nadena.dev.ndmf": {
+      "version": "1.14.8",
+      "dependencies": {}
+    },
+    "dev.limitex.avatar-compressor": {
+      "version": "0.9.0",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.10.0",
+        "com.vrchat.base": ">=3.10.0",
+        "nadena.dev.ndmf": ">=1.10.0"
+      }
+    },
+    "com.poiyomi.toon": {
+      "version": "9.3.64",
+      "dependencies": {}
+    },
+    "d4rkpl4y3r.d4rkavataroptimizer": {
+      "version": "4.6.0",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.9.0 <4.0.0-a"
+      }
+    },
+    "gogoloco": {
+      "version": "1.8.6",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.2.2"
+      }
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1442.0",
+      "dependencies": {}
+    },
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "3.0.3",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.9.0"
+      }
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.4.1",
+      "dependencies": {}
+    },
+    "com.vrchat.avatars": {
+      "version": "3.10.6",
+      "dependencies": {
+        "com.vrchat.base": "3.10.6"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.10.6",
+      "dependencies": {}
+    },
+    "com.llealloo.audiolink": {
+      "version": "3.1.2",
+      "dependencies": {}
+    },
+    "com.github.kurotu.krt-material-tools": {
+      "version": "1.1.0",
+      "dependencies": {}
+    }
+  }
+}

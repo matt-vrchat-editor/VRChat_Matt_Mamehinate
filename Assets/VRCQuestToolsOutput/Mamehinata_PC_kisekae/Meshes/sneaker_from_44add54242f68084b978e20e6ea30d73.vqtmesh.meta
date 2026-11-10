@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 1f591ee76c5bb9b49a9aeea864a28a21
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6d72435d7a85de74f8718c4d98a8c5c4, type: 3}
+  source: {fileID: 5817084672578256716, guid: 44add54242f68084b978e20e6ea30d73, type: 3}
+  removeVertexColor: 1

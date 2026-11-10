@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8181724122776245395
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1946833051, guid: 1b55fbec076fa054ebfef7044119f76d, type: 3}
+      propertyPath: expressionsMenu
+      value: 
+      objectReference: {fileID: 11400000, guid: 4806404ba1407d445926d6be5a7018a2,
+        type: 2}
+    - target: {fileID: 1946833051, guid: 1b55fbec076fa054ebfef7044119f76d, type: 3}
+      propertyPath: expressionParameters
+      value: 
+      objectReference: {fileID: 11400000, guid: 5171f3b3e0aa35a4baa663eff7a59b94,
+        type: 2}
+    - target: {fileID: 1946833051, guid: 1b55fbec076fa054ebfef7044119f76d, type: 3}
+      propertyPath: baseAnimationLayers.Array.data[4].animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: 853ae1262509d5646af28323c97e5a8f, type: 2}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309250687484811646, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081283305613263812, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_Name
+      value: Mamehinata_Mobile_kisekae
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156312861976161135, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156312861976161135, guid: 1b55fbec076fa054ebfef7044119f76d,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b55fbec076fa054ebfef7044119f76d, type: 3}
