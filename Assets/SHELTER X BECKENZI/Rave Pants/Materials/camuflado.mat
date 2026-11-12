@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BootsMat
-  m_Shader: {fileID: 4800000, guid: 7e272e14e3fdbe0448f5e333741a73c4, type: 3}
+  m_Name: camuflado
+  m_Shader: {fileID: 4800000, guid: 275b83735b54e814c83b9405929edf1b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,15 +25,15 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 2450
   stringTagMap:
-    AllLockedGUIDS: 875abfd14e5f447478bd23504fb5552a
+    AllLockedGUIDS: d0beedbed18ddff46bd54a02f72b9a1d
     OriginalKeywords: FINALPASS MOCHIE_PBR POI_STYLIZED_StylizedSpecular VIGNETTE_MASKED
       _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI _RIMSTYLE_LILTOON
       _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Old Versions/8.1/Poiyomi Toon Outline
     OriginalShaderGUID: 034460dc851505a42baca2ba6514f9f0
-    RenderType: Opaque
+    RenderType: TransparentCutout
     _ALDecalColorMask_texPack_a_channel: 4
     _ALDecalColorMask_texPack_a_fallback: 1
     _ALDecalColorMask_texPack_a_inverted: False
@@ -50,20 +50,16 @@ Material:
     _ALDecalColorMask_texPack_r_inverted: False
     _MochieMetallicMaps_texPack_a_channel: 4
     _MochieMetallicMaps_texPack_a_fallback: 1
-    _MochieMetallicMaps_texPack_a_guid: 0df64dc1ccca04f42a85fdcdbbca3572
     _MochieMetallicMaps_texPack_a_inverted: False
     _MochieMetallicMaps_texPack_b_channel: 4
     _MochieMetallicMaps_texPack_b_fallback: 1
-    _MochieMetallicMaps_texPack_b_guid: 0df64dc1ccca04f42a85fdcdbbca3572
     _MochieMetallicMaps_texPack_b_inverted: False
     _MochieMetallicMaps_texPack_g_channel: 4
     _MochieMetallicMaps_texPack_g_fallback: 1
-    _MochieMetallicMaps_texPack_g_guid: 0df64dc1ccca04f42a85fdcdbbca3572
     _MochieMetallicMaps_texPack_g_inverted: False
-    _MochieMetallicMaps_texPack_lastConfirmTime: 1699365620
+    _MochieMetallicMaps_texPack_lastConfirmTime: 1699485013
     _MochieMetallicMaps_texPack_r_channel: 4
     _MochieMetallicMaps_texPack_r_fallback: 1
-    _MochieMetallicMaps_texPack_r_guid: b202cd61bb442e94885a9a8c45617f72
     _MochieMetallicMaps_texPack_r_inverted: False
     _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
     _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
@@ -74,11 +70,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 2da59565d81f4d34a9216fb4de423dad, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2c093df3316c80b4c86d2f651a8a1ab1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClippingMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0d0379fb8da6c4341b1515287c0c935f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalMask:
@@ -114,11 +110,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7679c9032146f6443bc863e431d3328c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6386afad9e141a74ba39572fd15b9353, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieMetallicMaps:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bd7a8390bd32f464090b845c0cd63898, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieReflCube:
@@ -150,7 +146,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Set_HighColorMask:
-        m_Texture: {fileID: 2800000, guid: 0df64dc1ccca04f42a85fdcdbbca3572, type: 3}
+        m_Texture: {fileID: 2800000, guid: 09245e38346064d4bbda06908e09d0b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Set_RimLightMask:
@@ -458,7 +454,7 @@ Material:
     - _Bump2ndScale: 1
     - _BumpMapStochastic: 0
     - _BumpMapUV: 0
-    - _BumpScale: 1
+    - _BumpScale: 0.5
     - _BumpScaleMatcap: 1
     - _CCIgnoreCastedShadows: 0
     - _CameraAngleMax: 90
@@ -536,7 +532,7 @@ Material:
     - _CurvFix: 1
     - _CurvatureU: 0
     - _CurvatureV: 0
-    - _Cutoff: 0
+    - _Cutoff: 0.036
     - _Decal0ApplyGlobalMaskBlendType: 0
     - _Decal0ApplyGlobalMaskIndex: 0
     - _Decal0ChannelSeparation: 0
@@ -1295,12 +1291,12 @@ Material:
     - _HeightmaskInvert: 0
     - _HeightmaskUV: 0
     - _HighColorThemeIndex: 0
-    - _HighColor_Power: 0.491
+    - _HighColor_Power: 0.694
     - _HighColor_TexUV: 0
     - _IgnoreCastedShadows: 0
     - _IgnoreEncryption: 0
     - _IgnoreFog: 0
-    - _Inverse_Clipping: 0
+    - _Inverse_Clipping: 1
     - _Inverse_MatcapMask: 0
     - _Inverse_Z_Axis_BLD: 1
     - _Invisible: 0
@@ -1357,7 +1353,7 @@ Material:
     - _Is_UseTweakMatCapOnShadow: 0
     - _Is_ViewCoord_Scroll: 0
     - _Is_ViewShift: 0
-    - _Layer1Strength: 0.486
+    - _Layer1Strength: 1
     - _Layer2Size: 0
     - _Layer2Strength: 0
     - _LightDataAOGlobalMaskBlendTypeR: 2
@@ -1661,24 +1657,24 @@ Material:
     - _MochieMetallicMapsStochastic: 0
     - _MochieMetallicMapsUV: 0
     - _MochieMetallicMasksUV: 0
-    - _MochieMetallicMultiplier: 0
+    - _MochieMetallicMultiplier: 0.532
     - _MochieReflectionMaskInvert: 0
-    - _MochieReflectionStrength: 0.031
+    - _MochieReflectionStrength: 0.188
     - _MochieReflectionStrengthGlobalMask: 0
     - _MochieReflectionStrengthGlobalMaskBlendType: 2
     - _MochieReflectionTintThemeIndex: 0
     - _MochieRoughnessMapInvert: 0
-    - _MochieRoughnessMultiplier: 0.327
+    - _MochieRoughnessMultiplier: 0.337
     - _MochieRoughnessMultiplier2: 1
     - _MochieSmoothnessGlobalMask: 0
     - _MochieSmoothnessGlobalMaskBlendType: 2
     - _MochieSpecularMaskInvert: 0
-    - _MochieSpecularStrength: 0.148
+    - _MochieSpecularStrength: 0.332
     - _MochieSpecularStrength2: 1
     - _MochieSpecularStrengthGlobalMask: 0
     - _MochieSpecularStrengthGlobalMaskBlendType: 2
     - _MochieSpecularTintThemeIndex: 0
-    - _Mode: 0
+    - _Mode: 1
     - _ModelAngleMax: 90
     - _ModelAngleMin: 45
     - _MonochromeLighting: 0
@@ -1710,7 +1706,7 @@ Material:
     - _OutlineDeleteMesh: 0
     - _OutlineDisableInVR: 0
     - _OutlineDstBlend: 0
-    - _OutlineDstBlendAlpha: 0
+    - _OutlineDstBlendAlpha: 1
     - _OutlineDstBlendAlphaFA: 1
     - _OutlineDstBlendFA: 1
     - _OutlineEmission: 0
@@ -2143,7 +2139,7 @@ Material:
     - _StylizedSpecularFeather: 0.065
     - _StylizedSpecularIgnoreNormal: 1
     - _StylizedSpecularIgnoreShadow: 1
-    - _StylizedSpecularStrength: 0.03
+    - _StylizedSpecularStrength: 0.33
     - _SubpassCutoff: 0.5
     - _SubsurfaceScattering: 0
     - _TessEdge: 10
@@ -2531,11 +2527,11 @@ Material:
     - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_postprocessing: 0
-    - m_renderingCategory: 0
+    - m_renderingCategory: 1
     - m_specialFXCategory: 0
-    - m_start_ALDecalSpectrum: 0
+    - m_start_ALDecalSpectrum: 1
     - m_start_ALVolumeColor: 0
-    - m_start_Alpha: 1
+    - m_start_Alpha: 0
     - m_start_AlphaGlobalMask: 0
     - m_start_Aniso: 0
     - m_start_BlackLightMasking: 0
@@ -2602,7 +2598,7 @@ Material:
     - m_start_OutlineStencilPassFrontOptions: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiLightData: 0
-    - m_start_PoiShading: 0
+    - m_start_PoiShading: 1
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -2624,11 +2620,11 @@ Material:
     - m_start_UVTileDissolveRow3: 0
     - m_start_VideoSettings: 0
     - m_start_alphaBlending: 0
-    - m_start_audioLink: 0
+    - m_start_audioLink: 1
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
-    - m_start_brdf: 0
+    - m_start_brdf: 1
     - m_start_brdfadvanced: 0
     - m_start_brdfglobalmask: 0
     - m_start_clearCoat: 0
@@ -2659,7 +2655,7 @@ Material:
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
     - m_start_rimLightOptions: 0
-    - m_start_stylizedSpec: 1
+    - m_start_stylizedSpec: 0
     - m_start_subsurfaceScattering: 0
     - m_start_udimdiscardOptions: 0
     - m_start_uvDistortion: 0

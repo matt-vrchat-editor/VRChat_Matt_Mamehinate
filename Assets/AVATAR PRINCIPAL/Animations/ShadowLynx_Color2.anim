@@ -23,7 +23,7 @@ AnimationClip:
     - time: 0
       value: {fileID: 2100000, guid: 74ce29f0743b37f46a1deebaa5a839ae, type: 2}
     attribute: m_Materials.Array.data[0]
-    path: ShadowLynxHoodie_color1/Inner
+    path: ShadowLynxHoodie_mf_color1/Inner
     classID: 137
     script: {fileID: 0}
     flags: 2
@@ -32,7 +32,7 @@ AnimationClip:
     - time: 0
       value: {fileID: 2100000, guid: e5f16de5eced3aa4699766054952b844, type: 2}
     attribute: m_Materials.Array.data[0]
-    path: ShadowLynxHoodie_color1/Parka
+    path: ShadowLynxHoodie_mf_color1/Parka
     classID: 137
     script: {fileID: 0}
     flags: 2
@@ -41,7 +41,7 @@ AnimationClip:
     - time: 0
       value: {fileID: 2100000, guid: 1c54e574ee8246b4a83ec86b18ddcee1, type: 2}
     attribute: m_Materials.Array.data[0]
-    path: ShadowLynxHoodie_color1/Rucksack
+    path: ShadowLynxHoodie_mf_color1/Rucksack
     classID: 137
     script: {fileID: 0}
     flags: 2
@@ -50,7 +50,7 @@ AnimationClip:
     - time: 0
       value: {fileID: 2100000, guid: a608aaeb54288624e958de745e855793, type: 2}
     attribute: m_Materials.Array.data[0]
-    path: ShadowLynxHoodie_color1/Shoes
+    path: ShadowLynxHoodie_mf_color1/Shoes
     classID: 137
     script: {fileID: 0}
     flags: 2
@@ -62,7 +62,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1942071545
+      path: 4150769113
       attribute: 0
       script: {fileID: 0}
       typeID: 137
@@ -71,7 +71,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1230207768
+      path: 3455411768
       attribute: 0
       script: {fileID: 0}
       typeID: 137
@@ -80,7 +80,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3981859785
+      path: 365066092
       attribute: 0
       script: {fileID: 0}
       typeID: 137
@@ -89,7 +89,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 171909799
+      path: 2392407943
       attribute: 0
       script: {fileID: 0}
       typeID: 137

@@ -116,7 +116,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 391fbadda35f59be6bacaa408d89ea90, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlitterColorTex:
@@ -294,7 +294,7 @@ Material:
     - _ApplySpecularFA: 1
     - _AsOverlay: 0
     - _AsUnlit: 0
-    - _AudioLink2Emission: 0
+    - _AudioLink2Emission: 1
     - _AudioLink2Emission2nd: 0
     - _AudioLink2Emission2ndGrad: 0
     - _AudioLink2EmissionGrad: 0
@@ -637,13 +637,13 @@ Material:
     - _UDIMDiscardUV: 0
     - _UVSec: 0
     - _UseAnisotropy: 0
-    - _UseAudioLink: 0
+    - _UseAudioLink: 1
     - _UseBacklight: 0
     - _UseBump2ndMap: 0
     - _UseBumpMap: 0
     - _UseClippingCanceller: 0
     - _UseDither: 0
-    - _UseEmission: 0
+    - _UseEmission: 1
     - _UseEmission2nd: 0
     - _UseGlitter: 0
     - _UseMain2ndTex: 0
@@ -696,7 +696,7 @@ Material:
     - _Emission2ndMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionBlink: {r: 0, g: 0, b: 3.141593, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.15, g: 1, b: 0.25, a: 1}
     - _EmissionMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterAtras: {r: 1, g: 1, b: 0, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}

@@ -473,6 +473,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0
   radiusCurve:
     serializedVersion: 2
@@ -519,10 +520,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -787,6 +790,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -833,10 +837,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -1066,6 +1072,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -1112,10 +1119,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -1337,6 +1346,8 @@ Transform:
   - {fileID: 544919035539547402}
   - {fileID: 6847387983716589926}
   - {fileID: 3686818282368901}
+  - {fileID: 6343360784652565623}
+  - {fileID: 2049253675891701898}
   m_Father: {fileID: 5906136578892252278}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1456534241670107052
@@ -1572,6 +1583,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -1620,10 +1632,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -2117,6 +2131,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -2164,10 +2179,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -3288,6 +3305,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -3335,10 +3353,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -3456,13 +3476,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4049871910731348919}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.8641249, y: -0.0796274, z: 0.07637722, w: 0.4910338}
-  m_LocalPosition: {x: 0.051483702, y: -0.017931227, z: 0.030993996}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: 0.8931833, y: -0.084254876, z: 0.07124005, w: 0.4359468}
+  m_LocalPosition: {x: 0.05148369, y: 0.11374127, z: 0.02746734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8776042917374836618}
-  m_Father: {fileID: 8699663721363701514}
+  m_Father: {fileID: 4774921330214876738}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4057071814807710465
 GameObject:
@@ -3602,6 +3622,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -3648,10 +3669,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 1
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -3764,6 +3787,11 @@ MonoBehaviour:
   position: {x: 0, y: -0.06, z: 0.075}
   rotation: {x: -0.673077, y: 0, z: 0, w: -0.7395724}
   bonesAsSpheres: 0
+  globalCollision: 0
+  globalCollisionAllowSelf: 1
+  globalCollisionAllowOthers: 1
+  globalCollisionFlags: 0
+  _globalCollisionSerializationVersion: 1
 --- !u!1 &4350480152956353596
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,6 +4467,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -4486,10 +4515,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -4705,13 +4736,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5998501074072474032}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.86701936, y: 0.10654229, z: -0.02868425, w: 0.48590466}
-  m_LocalPosition: {x: -0.051629994, y: -0.017931227, z: 0.030994022}
-  m_LocalScale: {x: 1, y: 0.99999976, z: 0.99999964}
+  m_LocalRotation: {x: 0.8957509, y: 0.10812965, z: -0.021954754, w: 0.43064654}
+  m_LocalPosition: {x: -0.05162999, y: 0.11374127, z: 0.02746734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3738104535470971197}
-  m_Father: {fileID: 8699663721363701514}
+  m_Father: {fileID: 4774921330214876738}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6029868821197394311
 GameObject:
@@ -4851,6 +4882,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -4897,10 +4929,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 1
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -5263,6 +5297,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df373bf91cf30b4bbd495e11cb1a2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _modularAvatarVersionTag:
+    UpdatedAtVersion: 
+    MinimumVersion: 
   mergeTarget:
     referencePath: armature
     targetObject: {fileID: 0}
@@ -5301,8 +5338,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5834557638817299297}
-  - {fileID: 6343360784652565623}
-  - {fileID: 2049253675891701898}
   m_Father: {fileID: 544919035539547402}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6731744137366794318
@@ -5909,6 +5944,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -5955,10 +5991,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -6105,6 +6143,11 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   bonesAsSpheres: 0
+  globalCollision: 0
+  globalCollisionAllowSelf: 1
+  globalCollisionAllowOthers: 1
+  globalCollisionFlags: 0
+  _globalCollisionSerializationVersion: 1
 --- !u!1 &7802966622210622210
 GameObject:
   m_ObjectHideFlags: 0
@@ -6211,6 +6254,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -6257,10 +6301,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
@@ -6490,6 +6536,7 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -6536,10 +6583,12 @@ MonoBehaviour:
   grabFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
+    contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0

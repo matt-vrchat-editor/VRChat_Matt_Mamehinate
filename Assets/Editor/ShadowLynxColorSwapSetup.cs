@@ -9,7 +9,7 @@ using UnityEngine;
 
 public static class ShadowLynxColorSwapSetup {
     const string HostName = "Mamehinata_PC_kisekae (Windows)";
-    const string OutfitName = "ShadowLynxHoodie_color1";
+    const string OutfitName = "ShadowLynxHoodie_mf_color1";
     const string WearPath = "Roupas/ShadowLynx/On";
     const string ColorPath = "Roupas/ShadowLynx/Color2";
     const string ClipPath = "Assets/AVATAR PRINCIPAL/Animations/ShadowLynx_Color2.anim";
@@ -58,7 +58,7 @@ public static class ShadowLynxColorSwapSetup {
         EditorUtility.SetDirty(host);
         UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(host.scene);
         AssetDatabase.SaveAssets();
-        Debug.Log($"[ShadowLynx] OK -> {WearPath} + {ColorPath}");
+        Debug.Log($"[ShadowLynx] OK -> {WearPath} + {ColorPath} on {OutfitName}");
     }
 
     static GameObject FindNamed(string name) {
