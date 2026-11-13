@@ -3410,30 +3410,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2051957678}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &486364243 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2391138385737095179, guid: f7ace481df06b1444acc9a01e0ba30bd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051957678}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &486364244 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1335100562170261323, guid: f7ace481df06b1444acc9a01e0ba30bd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051957678}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &486364245 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7278351301055319525, guid: f7ace481df06b1444acc9a01e0ba30bd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051957678}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &486364246 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2076442947026338094, guid: f7ace481df06b1444acc9a01e0ba30bd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051957678}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &486364247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1644240202886903983, guid: f7ace481df06b1444acc9a01e0ba30bd,
@@ -4111,6 +4087,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 179419597}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &574334462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2120567304938888028, guid: f7ace481df06b1444acc9a01e0ba30bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2051957678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &603527878
 GameObject:
   m_ObjectHideFlags: 0
@@ -4663,7 +4645,8 @@ PrefabInstance:
       value: 0.0347
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7941793400760164479, guid: 7652be564f422ba44ac9060fea989f76, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8937829357978290594, guid: 7652be564f422ba44ac9060fea989f76,
@@ -4675,12 +4658,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1710076331}
   m_SourcePrefab: {fileID: 100100000, guid: 7652be564f422ba44ac9060fea989f76, type: 3}
---- !u!1 &656592018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7941793400760164479, guid: 7652be564f422ba44ac9060fea989f76,
-    type: 3}
-  m_PrefabInstance: {fileID: 656592017}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &656592019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3900110798449363570, guid: 7652be564f422ba44ac9060fea989f76,
@@ -25056,95 +25033,6 @@ MonoBehaviour:
   legacyLocked: 0
   LockMode: 2
   mangleNames: 1
---- !u!1001 &1589291214
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2051957679}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.000952214
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.416
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.241
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.02705405
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.999634
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -176.899
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: b500002da85adf84ab8c877af085a520,
-        type: 3}
-      propertyPath: m_Name
-      value: Squirtle_v01
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b500002da85adf84ab8c877af085a520, type: 3}
---- !u!4 &1589291215 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b500002da85adf84ab8c877af085a520,
-    type: 3}
-  m_PrefabInstance: {fileID: 1589291214}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1597759731
 GameObject:
   m_ObjectHideFlags: 0
@@ -29197,344 +29085,6 @@ Transform:
   - {fileID: 1354036071}
   m_Father: {fileID: 659654557}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1919759632
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 6255936940918911028}
-    m_Modifications:
-    - target: {fileID: 456776207066032770, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49070948
-      objectReference: {fileID: 0}
-    - target: {fileID: 456776207066032770, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.49071866
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2823738096370184554, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2823738096370184554, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.000010088086
-      objectReference: {fileID: 0}
-    - target: {fileID: 2823738096370184554, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.000009790063
-      objectReference: {fileID: 0}
-    - target: {fileID: 2823738096370184554, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.00039467216
-      objectReference: {fileID: 0}
-    - target: {fileID: 3040906383628959290, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3040906383628959290, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.000010088086
-      objectReference: {fileID: 0}
-    - target: {fileID: 3040906383628959290, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.000009790063
-      objectReference: {fileID: 0}
-    - target: {fileID: 3040906383628959290, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.00039467216
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189643675823747505, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_Name
-      value: MameshelterBag Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189643675823747505, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313304849886409944, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6439335725076030561, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49070948
-      objectReference: {fileID: 0}
-    - target: {fileID: 6439335725076030561, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49071866
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555671794739833888, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      propertyPath: m_Name
-      value: armature.1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3189643675823747505, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1919759641}
-    - targetCorrespondingSourceObject: {fileID: 3189643675823747505, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1919759640}
-    - targetCorrespondingSourceObject: {fileID: 3189643675823747505, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1919759639}
-    - targetCorrespondingSourceObject: {fileID: 6555671794739833888, guid: bf577c790d261d142a086d3ad4a78337,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1919759638}
-  m_SourcePrefab: {fileID: 100100000, guid: bf577c790d261d142a086d3ad4a78337, type: 3}
---- !u!4 &1919759633 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2812555874377919243, guid: bf577c790d261d142a086d3ad4a78337,
-    type: 3}
-  m_PrefabInstance: {fileID: 1919759632}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1919759634 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6313304849886409944, guid: bf577c790d261d142a086d3ad4a78337,
-    type: 3}
-  m_PrefabInstance: {fileID: 1919759632}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1919759635 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2893199506368075499, guid: bf577c790d261d142a086d3ad4a78337,
-    type: 3}
-  m_PrefabInstance: {fileID: 1919759632}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1919759636 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6555671794739833888, guid: bf577c790d261d142a086d3ad4a78337,
-    type: 3}
-  m_PrefabInstance: {fileID: 1919759632}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1919759637 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3189643675823747505, guid: bf577c790d261d142a086d3ad4a78337,
-    type: 3}
-  m_PrefabInstance: {fileID: 1919759632}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1919759638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919759636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2df373bf91cf30b4bbd495e11cb1a2ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _modularAvatarVersionTag:
-    UpdatedAtVersion: 1.18.7
-    MinimumVersion: 1.18.0
-  mergeTarget:
-    referencePath: armature
-    targetObject: {fileID: 3108563367104558879}
-  prefix: 
-  suffix: 
-  legacyLocked: 0
-  LockMode: 2
-  mangleNames: 1
---- !u!114 &1919759639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919759637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1442.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 1720157428976451584
-  references:
-    version: 2
-    RefIds:
-    - rid: 1720157428976451584
-      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 3
-        name: Acessorios/Mochila
-        state:
-          actions:
-          - rid: 1720157428976451585
-        saved: 1
-        slider: 0
-        sliderInactiveAtZero: 0
-        securityEnabled: 0
-        defaultOn: 0
-        includeInRest: 0
-        exclusiveOffState: 0
-        enableExclusiveTag: 0
-        exclusiveTag: 
-        resetPhysbones: []
-        hasExitTime: 0
-        enableIcon: 0
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        enableDriveGlobalParam: 0
-        driveGlobalParam: 
-        separateLocal: 0
-        localState:
-          actions: []
-        hasTransition: 0
-        transitionStateIn:
-          actions: []
-        transitionStateOut:
-          actions: []
-        transitionTimeIn: 0
-        transitionTimeOut: 0
-        localTransitionStateIn:
-          actions: []
-        localTransitionStateOut:
-          actions: []
-        localTransitionTimeIn: 0
-        localTransitionTimeOut: 0
-        simpleOutTransition: 1
-        defaultSliderValue: 0
-        useGlobalParam: 0
-        globalParam: 
-        holdButton: 0
-        invertRestLogic: 0
-        expandIntoTransition: 1
-    - rid: 1720157428976451585
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 1919759634}
-        mode: 0
---- !u!114 &1919759640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919759637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 560fdafd46c74b2db6422fdf0e7f2363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _modularAvatarVersionTag:
-    UpdatedAtVersion: 1.18.7
-    MinimumVersion: 1.18.0
-  InheritProbeAnchor: 3
-  ProbeAnchor:
-    referencePath: armature/Hips/Spine/Chest
-    targetObject: {fileID: 7326762444919320896}
-  InheritBounds: 3
-  RootBone:
-    referencePath: armature/Hips
-    targetObject: {fileID: 4189804832624373045}
-  Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
---- !u!114 &1919759641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919759637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1895bf16884f4064f8e9550e7493c205, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _modularAvatarVersionTag:
-    UpdatedAtVersion: 1.18.7
-    MinimumVersion: 1.18.0
-  armatureRoot: {fileID: 1919759635}
 --- !u!1 &1933828486
 GameObject:
   m_ObjectHideFlags: 0
@@ -30353,6 +29903,36 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6255936940918911028}
     m_Modifications:
+    - target: {fileID: 165594633152643001, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1180251
+      objectReference: {fileID: 0}
+    - target: {fileID: 165594633152643001, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1180248
+      objectReference: {fileID: 0}
+    - target: {fileID: 165594633152643001, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1180251
+      objectReference: {fileID: 0}
+    - target: {fileID: 165594633152643001, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165594633152643001, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.055
+      objectReference: {fileID: 0}
+    - target: {fileID: 165594633152643001, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.041
+      objectReference: {fileID: 0}
     - target: {fileID: 179066110086205974, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -30606,7 +30186,7 @@ PrefabInstance:
     - target: {fileID: 1335100562170261323, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1544696392444633169, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
@@ -30701,6 +30281,11 @@ PrefabInstance:
     - target: {fileID: 2076442947026338094, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120567304938888028, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2226291738316665466, guid: f7ace481df06b1444acc9a01e0ba30bd,
@@ -30716,7 +30301,7 @@ PrefabInstance:
     - target: {fileID: 2391138385737095179, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3456242241178752733, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
@@ -30790,6 +30375,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4153367710030057187, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: d9a45f61fd2828a48ad5ee888ba0af5a, type: 2}
+    - target: {fileID: 4153367710030057187, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
       propertyPath: m_Bones.Array.data[30]
       value: 
       objectReference: {fileID: 0}
@@ -30827,12 +30417,112 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 080af846b70a4490bd0b23d57bb82674, type: 2}
+      objectReference: {fileID: 2100000, guid: 1a73f63ff9f5f5646865800972f68d95, type: 2}
     - target: {fileID: 4153367710030057187, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 412b828c5ffa4d648337438a35511f46, type: 2}
+      objectReference: {fileID: 2100000, guid: 8601a4dbe2fed744785b128646d94c8d, type: 2}
+    - target: {fileID: 4409257476279190225, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_Bones.Array.data[30]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409257476279190225, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_Bones.Array.data[31]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409257476279190225, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_Bones.Array.data[32]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409257476279190225, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_Bones.Array.data[33]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409257476279190225, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_Bones.Array.data[34]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409257476279190225, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_Bones.Array.data[35]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409257476279190225, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_Bones.Array.data[36]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.66087276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6608729
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6608727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0036
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0558
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9990177
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.013817583
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.041475616
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.007242535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.548
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -4.767
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450755337116480134, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.895
+      objectReference: {fileID: 0}
     - target: {fileID: 4591415291259733858, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_Bones.Array.data[30]
@@ -30918,6 +30608,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: edac5b11e29c4147843566ccdb2a740c, type: 2}
+    - target: {fileID: 4949731174056887933, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8065536
+      objectReference: {fileID: 0}
+    - target: {fileID: 4949731174056887933, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.80655336
+      objectReference: {fileID: 0}
+    - target: {fileID: 4949731174056887933, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8065535
+      objectReference: {fileID: 0}
     - target: {fileID: 5122909238679229971, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_Bones.Array.data[30]
@@ -31111,12 +30816,17 @@ PrefabInstance:
     - target: {fileID: 6823485707776563304, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7278351301055319525, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786097825679114559, guid: f7ace481df06b1444acc9a01e0ba30bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.174
       objectReference: {fileID: 0}
     - target: {fileID: 8479837945813279805, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
@@ -31208,11 +30918,12 @@ PrefabInstance:
     - {fileID: 1294406732732238953, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
     - {fileID: 4670955968859160637, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
     - {fileID: 8647743536682527534, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1562379802268149952, guid: f7ace481df06b1444acc9a01e0ba30bd,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1589291215}
+    - {fileID: 8872237467411524420, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
+    - {fileID: 1335100562170261323, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
+    - {fileID: 7278351301055319525, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
+    - {fileID: 2076442947026338094, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
+    - {fileID: 2391138385737095179, guid: f7ace481df06b1444acc9a01e0ba30bd, type: 3}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2226291738316665466, guid: f7ace481df06b1444acc9a01e0ba30bd,
         type: 3}
@@ -31601,7 +31312,7 @@ PrefabInstance:
     - target: {fileID: 8659434840056767697, guid: f3ea0c3cc6b5f1f4f9f215901fd73b69,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9105401190813395802, guid: f3ea0c3cc6b5f1f4f9f215901fd73b69,
         type: 3}
@@ -38679,7 +38390,6 @@ Transform:
   - {fileID: 5398275246929153913}
   - {fileID: 884644907}
   - {fileID: 934877141}
-  - {fileID: 1919759633}
   - {fileID: 664969591}
   - {fileID: 978593895}
   - {fileID: 352474509}
@@ -39188,7 +38898,6 @@ GameObject:
   - component: {fileID: 7850990874537200626}
   - component: {fileID: 7850990874537200625}
   - component: {fileID: 7850990874537200632}
-  - component: {fileID: 7850990874537200631}
   - component: {fileID: 7850990874537200635}
   - component: {fileID: 7850990874537200633}
   - component: {fileID: 7850990874537200636}
@@ -39202,6 +38911,10 @@ GameObject:
   - component: {fileID: 7850990874537200646}
   - component: {fileID: 7850990874537200647}
   - component: {fileID: 7850990874537200648}
+  - component: {fileID: 7850990874537200652}
+  - component: {fileID: 7850990874537200650}
+  - component: {fileID: 7850990874537200649}
+  - component: {fileID: 7850990874537200651}
   m_Layer: 0
   m_Name: Mamehinata_PC_kisekae (Windows)
   m_TagString: Untagged
@@ -41248,90 +40961,6 @@ MonoBehaviour:
         remoteOnly: 0
         obj: {fileID: 664969594}
         mode: 0
---- !u!114 &7850990874537200631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6744805835601832590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1442.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 7280479401935372295
-  references:
-    version: 2
-    RefIds:
-    - rid: 7280479401935372295
-      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 3
-        name: Acessorios/Bolsa
-        state:
-          actions:
-          - rid: 7280479401935372296
-        saved: 1
-        slider: 0
-        sliderInactiveAtZero: 0
-        securityEnabled: 0
-        defaultOn: 0
-        includeInRest: 0
-        exclusiveOffState: 0
-        enableExclusiveTag: 0
-        exclusiveTag: 
-        resetPhysbones: []
-        hasExitTime: 0
-        enableIcon: 0
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        enableDriveGlobalParam: 0
-        driveGlobalParam: 
-        separateLocal: 0
-        localState:
-          actions: []
-        hasTransition: 0
-        transitionStateIn:
-          actions: []
-        transitionStateOut:
-          actions: []
-        transitionTimeIn: 0
-        transitionTimeOut: 0
-        localTransitionStateIn:
-          actions: []
-        localTransitionStateOut:
-          actions: []
-        localTransitionTimeIn: 0
-        localTransitionTimeOut: 0
-        simpleOutTransition: 1
-        defaultSliderValue: 0
-        useGlobalParam: 0
-        globalParam: 
-        holdButton: 0
-        invertRestLogic: 0
-        expandIntoTransition: 1
-    - rid: 7280479401935372296
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 656592018}
-        mode: 0
 --- !u!114 &7850990874537200632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41858,26 +41487,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 1471764730401521664
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 486364249}
-        mode: 0
-    - rid: 1471764730401521665
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 486364248}
-        mode: 0
     - rid: 1471764730401521666
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -41888,71 +41497,14 @@ MonoBehaviour:
         remoteOnly: 0
         obj: {fileID: 486364247}
         mode: 0
-    - rid: 1471764730401521667
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 486364246}
-        mode: 0
-    - rid: 1471764730401521668
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 486364245}
-        mode: 0
-    - rid: 1471764730401521669
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 486364244}
-        mode: 0
-    - rid: 1471764730401521670
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 486364243}
-        mode: 0
-    - rid: 1471764730401521671
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 486364242}
-        mode: 0
     - rid: 9100000000000000003
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Roupas/Vasco Shirt
+        name: Roupas/Vasco Beach
         state:
           actions:
-          - rid: 1471764730401521664
-          - rid: 1471764730401521665
           - rid: 1471764730401521666
-          - rid: 1471764730401521667
-          - rid: 1471764730401521668
-          - rid: 1471764730401521669
-          - rid: 1471764730401521670
-          - rid: 1471764730401521671
         saved: 1
         slider: 0
         sliderInactiveAtZero: 0
@@ -42656,8 +42208,8 @@ MonoBehaviour:
         defaultOn: 0
         includeInRest: 0
         exclusiveOffState: 0
-        enableExclusiveTag: 0
-        exclusiveTag: 
+        enableExclusiveTag: 1
+        exclusiveTag: ShelterColor 
         resetPhysbones: []
         hasExitTime: 0
         enableIcon: 0
@@ -42706,6 +42258,357 @@ MonoBehaviour:
           guid: 74a41aaae4b782246a60d9983819ae6b
           id: 74a41aaae4b782246a60d9983819ae6b|Assets/AVATAR PRINCIPAL/Animations/Shelter_Color2.anim
           objRef: {fileID: 7400000, guid: 74a41aaae4b782246a60d9983819ae6b, type: 2}
+--- !u!114 &7850990874537200649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6744805835601832590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1442.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1471764794625753088
+  references:
+    version: 2
+    RefIds:
+    - rid: 1471764794625753088
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Acessorios/Squirtle Backpack
+        state:
+          actions:
+          - rid: 1471764794625753089
+          - rid: 1471764794625753090
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 1471764794625753089
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 486364249}
+        mode: 0
+    - rid: 1471764794625753090
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 574334462}
+        mode: 0
+--- !u!114 &7850990874537200650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6744805835601832590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1442.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1471764794625753088
+  references:
+    version: 2
+    RefIds:
+    - rid: 1471764794625753088
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Acessorios/Band-aids
+        state:
+          actions:
+          - rid: 1471764794625753089
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 1471764794625753089
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 486364248}
+        mode: 0
+--- !u!114 &7850990874537200651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6744805835601832590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1442.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1471764794625753088
+  references:
+    version: 2
+    RefIds:
+    - rid: 1471764794625753088
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Acessorios/Wristband Vasco
+        state:
+          actions:
+          - rid: 1471764794625753089
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 1471764794625753089
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 486364242}
+        mode: 0
+--- !u!114 &7850990874537200652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6744805835601832590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1442.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1471764768703381600
+  references:
+    version: 2
+    RefIds:
+    - rid: 1471764768703381600
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Roupas/Shelter/Color3
+        state:
+          actions:
+          - rid: 1471764768703381601
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: ShelterColor 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 1471764768703381601
+      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        clip:
+          version: 1
+          fileID: 7400000
+          guid: b8e3c4f17a2d9048b6c15e9a0d4f7a21
+          id: b8e3c4f17a2d9048b6c15e9a0d4f7a21|Assets/AVATAR PRINCIPAL/Animations/Shelter_Color3.anim
+          objRef: {fileID: 7400000, guid: b8e3c4f17a2d9048b6c15e9a0d4f7a21, type: 2}
 --- !u!1818360609 &7850990874650968206
 RotationConstraint:
   m_ObjectHideFlags: 0
